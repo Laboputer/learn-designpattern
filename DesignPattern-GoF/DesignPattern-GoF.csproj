@@ -42,6 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioral\Strategy\ConcreteStrategyC.cs" />
+    <Compile Include="Behavioral\Strategy\ConcreteStrategyB.cs" />
+    <Compile Include="Behavioral\Strategy\Context.cs" />
+    <Compile Include="Behavioral\Strategy\ConcreteStrategyA.cs" />
+    <Compile Include="Behavioral\Strategy\IStrategy.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -49,7 +54,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Behavioral\" />
     <Folder Include="Creational\" />
     <Folder Include="Structural\" />
   </ItemGroup>

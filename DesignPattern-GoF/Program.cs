@@ -10,6 +10,9 @@ namespace DesignPattern_GoF
 	{
 		static void Main(string[] args)
 		{
+			// Strategy
+			new Behavioral.Strategy.Context(new Behavioral.Strategy.ConcreteStrategyA()).CallAlgorithm();
+
 		}
 	}
 }
